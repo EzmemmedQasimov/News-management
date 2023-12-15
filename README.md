@@ -7,7 +7,7 @@
 
 ## Installation
 - Clone this repository: git clone https://github.com/EzmemmedQasimov/News-management.git
-- Navigate to the project directory: cd project
+- Navigate to the project directory: cd News-management
 - Install Composer dependencies: composer install
 - Create a copy of the .env.example file and rename it to .env.
 - Generate an application key: php artisan key:generate
