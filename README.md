@@ -6,7 +6,7 @@
 - Laravel 10.10
 
 ## Installation
-- Clone this repository: git clone https://github.com/EzmemmedQasimov/bond-managment.git
+- Clone this repository: git clone https://github.com/EzmemmedQasimov/News-management.git
 - Navigate to the project directory: cd bond-managment
 - Install Composer dependencies: composer install
 - Create a copy of the .env.example file and rename it to .env.
