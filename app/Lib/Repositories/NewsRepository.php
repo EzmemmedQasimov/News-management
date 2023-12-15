@@ -65,4 +65,15 @@ class NewsRepository
             throw $th;
         }
     }
+
+    public function updateViewCount($news)
+    {
+        try {
+            $news->update([
+                'view_count'    => $news->view_count + 1
+            ]);
+        } catch (\Throwable $th) {
+            throw $th;
+        }
+    }
 }

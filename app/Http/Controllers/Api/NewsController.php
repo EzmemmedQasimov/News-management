@@ -24,6 +24,7 @@ class NewsController extends Controller
     public function show($id)
     {
         $news = $this->newsRepository->firstActiveById($id);
+        $this->newsRepository->updateViewCount($news);
         return success(Response::HTTP_OK, Response::$statusTexts[Response::HTTP_OK], new NewsResource($news));
     }
 
